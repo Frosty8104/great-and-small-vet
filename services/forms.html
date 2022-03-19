@@ -22,7 +22,7 @@
     <main>
     <!-- sections/divs: frequent forms, client surveys -->
     <!-- current forms: exam; health certificates: vaccine, spay/neuter, health check; release; 
-    estimate; discharge -->
+    estimate -->
     <div class="record">
         <h2>Patient Medical Record</h2>
         <form class="info" action="">
@@ -66,7 +66,7 @@
                 <tr><td></td><td></td><td></td></tr>
                 <tr><td></td><td></td><td></td></tr>
                 <tr><td></td><td></td><td></td></tr>
-                <tr><td></td><td><td></td></tr></table>
+                <tr><td></td><td></td><td></td></tr></table>
         </form>
         <form class="soap" action="">
             <h2>Subjective, Objective, Assessment, Plan (S.O.A.P.)</h2>
@@ -81,8 +81,205 @@
             <tr><td></td><td>Plan - </td></tr></table>
         </form>
         <form class="exam" action="">
-            <h2>Examination Sheet</h2>
-        </form>
+            <h2>Pet Exam Sheet</h2>
+            <label><span>Pet Info: </span></label>
+            <label>Name: </label><input type="text" id="txtName" value="">
+            <label>Age/DOB: </label><input type="text" id="txtName" value="">
+            <input type="checkbox" id="txtCan" value=""><label>Canine</label>
+            <input type="checkbox" id="txtFel" value=""><label>Feline</label>
+            <label>Breed: </label><input type="text" id="txtBree" value="">
+            <input type="checkbox" id="txtMal" value=""><label>M</label>
+            <input type="checkbox" id="txtFem" value=""><label>F</label><br>
+            <label><span>Owner Info: </span></label>
+            <label>Name: </label><input type="text" id="txtName" value="">
+            <label>Phone #: </label><input type="text" id="txtPhone" value=""><br>
+            <label><b>Reason for Visit:</b> </label><input type="text" id="txtRes" value=""><br>
+            <label><b>Weight:</b> </label>
+            <input type="checkbox" id="txtUnder" value=""><label>Underweight</label>
+            <input type="checkbox" id="txtNorm" value=""><label>Normal</label>
+            <input type="checkbox" id="txtOver" value=""><label>Overweight</label><br>
+            <label><b>Neutered:</b> </label>
+            <input type="checkbox" id="txtNo" value=""><label>No</label>
+            <input type="checkbox" id="txtYes" value=""><label>Yes</label><br>
+            <label><b>Spayed:</b> </label>
+            <input type="checkbox" id="txtNo" value=""><label>No</label>
+            <input type="checkbox" id="txtYes" value=""><label>Yes</label><br>
+            <label><b>Energy:</b> </label>
+            <input type="checkbox" id="txtNorm" value=""><label>Normal</label>
+            <input type="checkbox" id="txtInc" value=""><label>Increased</label>
+            <input type="checkbox" id="txtDec" value=""><label>Decreased</label><br>
+            <label><b>Appetite:</b> </label>
+            <input type="checkbox" id="txtNorm" value=""><label>Normal</label>
+            <input type="checkbox" id="txtInc" value=""><label>Increased</label>
+            <input type="checkbox" id="txtDec" value=""><label>Decreased</label>
+            <input type="checkbox" id="txtNon" value=""><label>None</label><br>
+            <label><b>Water Intake:</b> </label>
+            <input type="checkbox" id="txtNorm" value=""><label>Normal</label>
+            <input type="checkbox" id="txtInc" value=""><label>Increased</label>
+            <input type="checkbox" id="txtDec" value=""><label>Decreased</label>
+            <input type="checkbox" id="txtNon" value=""><label>None</label><br>
+            <label><b>Urination:</b> </label>
+            <input type="checkbox" id="txtNorm" value=""><label>Normal</label>
+            <input type="checkbox" id="txtInc" value=""><label>Increased</label>
+            <input type="checkbox" id="txtDec" value=""><label>Decreased</label>
+            <input type="checkbox" id="txtNon" value=""><label>None</label><br>
+            <label><b>Feces:</b> </label>
+            <input type="checkbox" id="txtNorm" value=""><label>Normal</label>
+            <input type="checkbox" id="txtOth" value=""><label>Other</label><input type="text" id="txtOth" value=""/>
+            <input type="checkbox" id="txtNon" value=""><label>None</label><br>
+            <label><b>Vomiting:</b> </label>
+            <input type="checkbox" id="txtNon" value=""><label>None</label>
+            <input type="checkbox" id="txtFreq" value=""><label>Yes, frequency</label><input type="text" id="txtFreq" value=""/><br>
+            <label><b>Coughing:</b> </label>
+            <input type="checkbox" id="txtNon" value=""><label>None</label>
+            <input type="checkbox" id="txtFreq" value=""><label>Yes, frequency</label><input type="text" id="txtFreq" value=""/><br>
+            <label><b>Sneezing:</b> </label>
+            <input type="checkbox" id="txtNon" value=""><label>None</label>
+            <input type="checkbox" id="txtFreq" value=""><label>Yes, frequency</label><input type="text" id="txtFreq" value=""/><br>
+            <label><span>Routine Tests</span></label>
+            <input type="checkbox" id="txtHart" value=""><label>Heartworm Test</label>
+            <input type="checkbox" id="txtFelv" value=""><label>FeLV Test</label>
+            <input type="checkbox" id="txtFiv" value=""><label>FIV Test</label>
+            <input type="checkbox" id="txtFec" value=""><label>Fecal Exam</label>
+            <input type="checkbox" id="txtOth" value=""><label>Other: </label><br>
+            <label><span>Results</span></label>
+            <input type="checkbox" id="txtPos" value=""><label>Positive</label>
+            <input type="checkbox" id="txtNeg" value=""><label>Negative</label>
+            <input type="checkbox" id="txtPos" value=""><label>Positive</label>
+            <input type="checkbox" id="txtNeg" value=""><label>Negative</label>
+            <input type="checkbox" id="txtPos" value=""><label>Positive</label>
+            <input type="checkbox" id="txtNeg" value=""><label>Negative</label>
+            <input type="text" id="txtCom" value="">
+            <input type="text" id="txtCom" value=""><br>
+            <label><span>Vaccinations Given</span></label>
+            <input type="checkbox" id="txtDhlp" value=""><label>DHLP - P</label>
+            <input type="checkbox" id="txtRab" value=""><label>Rabies (1yr / 3yr)</label>
+            <input type="checkbox" id="txtBord" value=""><label>Bordatella</label>
+            <input type="checkbox" id="txtFvr" value=""><label>FVRCP</label>
+            <input type="checkbox" id="txtLeuk" value=""><label>Leukemia</label>
+            <input type="checkbox" id="txtOth" value=""><label>Other</label><input type="text" id="txtOth" value=""/><br>
+            <label><span>Heart</span></label>
+            <input type="checkbox" id="txtNorm" value=""><label>Seems Normal</label>
+            <label>Heart Rate</label><input type="text" id="txtRate" value=""/>
+            <input type="checkbox" id="txtSlo" value=""><label>Slow</label>
+            <input type="checkbox" id="txtNorm" value=""><label>Normal</label>
+            <input type="checkbox" id="txtFast" value=""><label>Fast</label>
+            <input type="checkbox" id="txtMur" value=""><label>Murmur</label>
+            <label>L</label></labe><input type="text" id="txtLeft" value=""/>
+            <label>R</label><input type="text" id="txtRight" value=""/><br>
+            <label><span>Lungs</span></label>
+            <input type="checkbox" id="txtNorm" value=""><label>Seems Normal</label>
+            <input type="checkbox" id="txtCrack" value=""><label>Crackling</label>
+            <input type="checkbox" id="txtBreath" value=""><label>Rapid Breathing</label>
+            <input type="checkbox" id="txtCough" value=""><label>Coughing</label>
+            <input type="checkbox" id="txtWheez" value=""><label>Wheezing</label>
+            <input type="checkbox" id="txtTrach" value=""><label>Tracheitis</label>
+            <input type="checkbox" id="txtCong" value=""><label>Congestion</label>
+            <input type="checkbox" id="txtLabour" value=""><label>Laboured</label><br>
+            <label><span>Eyes</span></label>
+            <input type="checkbox" id="txtNorm" value=""><label>Seems Normal</label>
+            <input type="checkbox" id="txtDis" value=""><label>Discharge</label>
+            <label>L</label></labe><input type="text" id="txtLeft" value=""/>
+            <label>R</label><input type="text" id="txtRight" value=""/>
+            <input type="checkbox" id="txtEntro" value=""><label>Entropion</label>
+            <label>L</label></labe><input type="text" id="txtLeft" value=""/>
+            <label>R</label><input type="text" id="txtRight" value=""/>
+            <input type="checkbox" id="txtUlc" value=""><label>Corneal Ulcer</label>
+            <label>L</label></labe><input type="text" id="txtLeft" value=""/>
+            <label>R</label><input type="text" id="txtRight" value=""/>
+            <input type="checkbox" id="txtCat" value=""><label>Cataracts</label>
+            <label>L</label></labe><input type="text" id="txtLeft" value=""/>
+            <label>R</label><input type="text" id="txtRight" value=""/>
+            <input type="checkbox" id="txtGrow" value=""><label>Lid Growth</label>
+            <label>L</label></labe><input type="text" id="txtLeft" value=""/>
+            <label>R</label><input type="text" id="txtRight" value=""/><br>
+            <label><span>Ears</span></label>
+            <input type="checkbox" id="txtNorm" value=""><label>Seems Normal</label>
+            <input type="checkbox" id="txtScal" value=""><label>Scaly Border</label>
+            <label>L</label></labe><input type="text" id="txtLeft" value=""/>
+            <label>R</label><input type="text" id="txtRight" value=""/>
+            <input type="checkbox" id="txtMite" value=""><label>Ear Mites</label>
+            <label>L</label></labe><input type="text" id="txtLeft" value=""/>
+            <label>R</label><input type="text" id="txtRight" value=""/>
+            <input type="checkbox" id="txtHair" value=""><label>Excess Hair</label>
+            <label>L</label></labe><input type="text" id="txtLeft" value=""/>
+            <label>R</label><input type="text" id="txtRight" value=""/>
+            <input type="checkbox" id="txtWax" value=""><label>Excess Wax</label>
+            <label>L</label></labe><input type="text" id="txtLeft" value=""/>
+            <label>R</label><input type="text" id="txtRight" value=""/>
+            <input type="checkbox" id="txtExu" value=""><label>Exudate</label>
+            <label>L</label></labe><input type="text" id="txtLeft" value=""/>
+            <label>R</label><input type="text" id="txtRight" value=""/>
+            <input type="checkbox" id="txtFlam" value=""><label>Inflamed</label>
+            <label>L</label></labe><input type="text" id="txtLeft" value=""/>
+            <label>R</label><input type="text" id="txtRight" value=""/>
+            <input type="checkbox" id="txtPus" value=""><label>Pus</label>
+            <label>L</label></labe><input type="text" id="txtLeft" value=""/>
+            <label>R</label><input type="text" id="txtRight" value=""/><br>
+            <label><span>Nose / Throat</span></label>
+            <input type="checkbox" id="txtNorm" value=""><label>Seems Normal</label>
+            <input type="checkbox" id="txtDry" value=""><label>Dry / Crusty</label>
+            <input type="checkbox" id="txtTons" value=""><label>Enlarged Tonsils</label>
+            <input type="checkbox" id="txtLymph" value=""><label>Enlarged Lymph Glands</label>
+            <input type="checkbox" id="txtDis" value=""><label>Nose Discharge</label>
+            <label>L</label></labe><input type="text" id="txtLeft" value=""/>
+            <label>R</label><input type="text" id="txtRight" value=""/><br>
+            <label><span>Mouth / Teeth / Gums</span></label>
+            <input type="checkbox" id="txtNorm" value=""><label>Seems Normal</label>
+            <input type="checkbox" id="txtLoose" value=""><label>Loose Tooth</label>
+            <input type="checkbox" id="txtBroke" value=""><label>Broken Tooth</label>
+            <input type="checkbox" id="txtStain" value=""><label>Stained Tooth</label>
+            <input type="checkbox" id="txtMem" value=""><label>Pale Membranes</label>
+            <input type="checkbox" id="txtTar" value=""><label>Tartar</label><label>Mild / Moderate / Severe</label>
+            <input type="checkbox" id="txtGin" value=""><label>Gingivitis</label><label>Mild / Moderate / Severe</label><br>
+            <label><span>Abdomen</span></label>
+            <input type="checkbox" id="txtNorm" value=""><label>Seems Normal</label>
+            <input type="checkbox" id="txtMass" value=""><label>Abdominal Mass</label>
+            <input type="checkbox" id="txtAsci" value=""><label>Ascites</label>
+            <input type="checkbox" id="txtTen" value=""><label>Tense</label>
+            <input type="checkbox" id="txtHern" value=""><label>Hernia</label>
+            <label>Umbilical</label><input type="checkbox" id="txtUmb" value="">
+            <label>Inguinal</label><input type="checkbox" id="txtIngu" value=""><br>
+            <label><span>Musculo-Skeletal</span></label>
+            <input type="checkbox" id="txtNorm" value=""><label>Seems Normal</label>
+            <input type="checkbox" id="txtPain" value=""><label>Pain</label>
+            <input type="checkbox" id="txtNail" value=""><label>Nail Problem</label>
+            <input type="checkbox" id="txtLame" value=""><label>Lameness</label>
+            <input type="checkbox" id="txtJoin" value=""><label>Joint Problem</label>
+            <label>Location(s):</label><br><input type="text" id="txtLoc" value=""/><br>
+            <label><span>Skin / Hair Coat</span></label>
+            <input type="checkbox" id="txtNorm" value=""><label>Seems Normal</label>
+            <input type="checkbox" id="txtDull" value=""><label>Dull / Dry</label>
+            <input type="checkbox" id="txtShed" value=""><label>Excessive Shedding</label>
+            <input type="checkbox" id="txtScaly" value=""><label>Scaly</label>
+            <input type="checkbox" id="txtScab" value=""><label>Scabs</label>
+            <input type="checkbox" id="txtLoss" value=""><label>Hair Loss</label>
+            <input type="checkbox" id="txtMat" value=""><label>Matted   </label>
+            <input type="checkbox" id="txtHot" value=""><label>Hot Spot</label>
+            <input type="checkbox" id="txtStaph" value=""><label>Staph Infection</label>
+            <input type="checkbox" id="txtAbs" value=""><label>Abscess</label>
+            <input type="checkbox" id="txtCyst" value=""><label>Cyst</label>
+            <input type="checkbox" id="txtFlea" value=""><label>Fleas</label>
+            <input type="checkbox" id="txtTumor" value=""><label>Tumor</label>
+            <input type="checkbox" id="txtWart" value=""><label>Wart</label>
+            <input type="checkbox" id="txtLick" value=""><label>Excessive licking of paws</label>
+            <input type="checkbox" id="txtTick" value=""><label>Ticks</label>
+            <input type="checkbox" id="txtMite" value=""><label>Mange Mite</label><br>
+            <label><span>Reccommended Tests / Treatments</span></label>
+            <input type="checkbox" id="txtRay" value=""><label>X-Rays</label>
+            <input type="checkbox" id="txtEkg" value=""><label>EKG</label>
+            <input type="checkbox" id="txtUrin" value=""><label>Urinalysis</label>
+            <input type="checkbox" id="txtThyr" value=""><label>Thyroid Level</label>
+            <input type="checkbox" id="txtClean" value=""><label>Teeth Ultrasonic Cleaning</label>
+            <input type="checkbox" id="txtDrug" value=""><label>Drug Monitoring</label>
+            <input type="checkbox" id="txtBlood" value=""><label>Blood Screen</label>
+            <input type="checkbox" id="txtEar" value=""><label>Deep Ear Video</label>
+            <input type="checkbox" id="txtUp" value=""><label>Follow Up: </label><input type="text" id="txtUp" value=""/>
+            <input type="checkbox" id="txtOth" value=""><label>Other: </label><input type="text" id="txtOth" value=""/><br>
+            <label><span>Comments:</span> </label><input type="text" id="txtCom" value=""><br>
+            <label><b>Vet Tech:</b> </label><input type="text" id="txtTech" value="">
+            <label><b>Veterinarian:</b> </label><input type="text" id="txtVet" value="">
+            <label><b>Date:</b> </label><input type="text" id="txtDat" value="">
     </div>
     <div class="consent">
         <h2>Consent/Admittance Form</h2>
@@ -465,8 +662,43 @@
             <label>Date: </label><input type="text" id="txtDat" value=""/>
         </form></div>
         <div class="estimate">
-            <h2>Estimate Form (your choice procedure)</h2>
-            <form action=""></form>
+            <h2>Treatment Plan Estimate Form (your choice procedure)</h2>
+            <form action="">
+                <h2>Great and Small Veterinary Services</h2>
+                <p>1212 Apache Crescent</p>
+                <p>Leduc, AB</p>
+                <p>T9E 8T8</p>
+                <p>(780) 387-4848</p>
+                <h2>Estimate</h2>
+                <p>Date:</p>
+                <p>Bill To</p>
+                <p>Name</p>
+                <p>Address</p>
+                <p>City, Province/Territory Postal Code</p>
+                <p>Country</p>
+                <p>Phone</p>
+                <p>E-mail</p>
+                <p>Client #</p>
+                <p>Pet Info</p>
+                <table>
+                    <tr><th>Description</th><th>Quantity</th><th>Unit Price</th><th>Line Total</th></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td>Subtotal</td><td></td></tr>
+                    <tr><td></td><td></td><td>GST</td><td>6%</td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td>Total</td><td></td></tr>  
+                </table>
+            </form>
         </div>
         <div class="discharge">
             <h2>Discharge Instructions (foreign object exploratory) </h2>

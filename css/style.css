@@ -48,6 +48,10 @@ nav ul li a {
     margin-top: 1%;
     margin-bottom: 5%;
 }
+.exam label span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
 .board p {
     padding-right: 2%;
 }
@@ -65,9 +69,19 @@ nav ul li a {
     height: 60px;
     width: 10%;
 }
+.medic table {
+    border-collapse: collapse;
+    margin-bottom: 5%;
+    width: 100%;
+}
+.medic table, .medic th, .medic td {
+    border: 1px solid;
+    text-align: left;
+}
 .medic th {
-    height: 10px;
+    height: 2%;
     text-align: center;
+    width: 20%;
 }
 table {
     border-collapse: collapse;
@@ -88,25 +102,4 @@ th {
 }
 strong {
     text-transform: uppercase;
-}
-#txtOwner {
-    width: 50%;
-}
-#txtAddress {
-    width: 45%;
-}
-#txtPhone, #txtCity {
-    width: 29%;
-}
-#txtDate, #txtPet, #txtAge {
-    width: 26.5%;
-}
-#txtEmergency {
-    width: 38%;
-}
-#txtBreed {
-    width: 39%;
-}
-#txtVac {
-    width: 42.5%;
 }
