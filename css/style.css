@@ -38,19 +38,123 @@ nav ul li a {
     padding-right: 5%;
     padding-top: 1%;
 }
-.board label, .board input, .record label, .record input, .history label, .history input, .consent label, .consent input, .discharge label, .discharge input {
+.board label, .board input, .record label, .record input, .history label, .history input, .consent label, .consent input, .discharge label, .discharge input, 
+.release label, .release input {
     margin-bottom: 2.5%;
     margin-right: 1.5%;
 }
 .info, .medical, .soap, .exam, .rabies {
     border: 1px solid #000000;
-    margin-left: 5%;
+    margin-left: 2%;
     margin-top: 1%;
     margin-bottom: 5%;
 }
 .exam label span {
     font-weight: bold;
     text-transform: uppercase;
+}
+.sig {
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-top: 1px solid #000000;
+    padding-bottom: 0.1%;
+    padding-left: 2%;
+    padding-top: 2%;
+    width: 100%;
+}
+.own {
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    padding-bottom: 0.1%;
+    padding-left: 2%;
+    padding-top: 2%;
+    width: 100%;
+}
+.sym {
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    padding-left: 2%;
+    float: left;
+    width: 50%;
+}
+.rout {
+    border-bottom: 1px solid #000000;
+    border-right: 1px solid #000000;
+    float: left;
+    padding-bottom: 9.35%;
+    padding-left: 2%;
+    width: 45%;
+}
+.test, .res {
+    float: left;
+    padding-top: 27.2%;
+    width: 45%;
+}
+.vac {
+    border-bottom: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-left: 1px solid #000000;
+    float: left;
+    padding-left: 2%;
+    padding-top: 4.05%;
+    padding-bottom: 5%;
+    clear: both;
+    width: 25%;
+}
+.hart {
+    border-bottom: 1px solid #000000;
+    border-right: 1px solid #000000;
+    float: left;
+    padding-bottom: 3.65%;
+    padding-left: 2%;
+    padding-top: 3.25%;
+    width: 25%;
+}
+.lung {
+    border-bottom: 1px solid #000000;
+    border-right: 1px solid #000000;
+    float: left;
+    padding-bottom: 2.75%;
+    padding-left: 2%;
+    padding-top: 3%;
+    width: 20%;
+}
+.eyes {
+    border-bottom: 1px solid #000000;
+    border-right: 1px solid #000000;
+    float: left;
+    padding-bottom: 5.45%;
+    padding-left: 2%;
+    padding-right: 0.8%;
+    padding-top: 5%; 
+    width: 20% 
+}
+.ears {
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    clear: both;
+    float: left;
+    padding-left: 2%;
+}
+.nose {
+    float: left;
+    padding-left: 2%;
+}
+.mouth {
+    float: left;
+    padding-left: 2%;
+}
+.abdo {
+    float: left;
+    padding-left: 2%;
+}
+.musc {
+    float: left;
+    padding-left: 2%; 
 }
 .board p {
     padding-right: 2%;
@@ -69,37 +173,47 @@ nav ul li a {
     height: 60px;
     width: 10%;
 }
-.medic table {
-    border-collapse: collapse;
-    margin-bottom: 5%;
-    width: 100%;
-}
-.medic table, .medic th, .medic td {
-    border: 1px solid;
-    text-align: left;
-}
-.medic th {
-    height: 2%;
-    text-align: center;
-    width: 20%;
-}
 table {
-    border-collapse: collapse;
-    height: 1200px;
     margin-bottom: 5%;
-    width: 100%;
 }
 table, th, td {
-    border: 1px solid;
-    text-align: left;
-    vertical-align: top;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    width: 100%;
 }
 th, td {
+    height: 24px;
     padding-left: 2%;
-}
-th {
-    height: 2%;
+    text-align: left;
+    width: 10%;
 }
 strong {
     text-transform: uppercase;
+}
+#txtDat, #txtBred, #txtRate {
+    width: 20%;
+}
+#txtPhon, #txtNum, #txtPet, #txtDob, #txtSpec, #txtCol, #txtGen, #txtOth {
+    width: 15%;
+}
+#txtNam, #txtSig {
+    width: 40%;
+}
+#txtAdd {
+    width: 35%;
+}
+#txtPost {
+    width: 13%;
+}
+#txtProv {
+    width: 27%;
+}
+#txtAge, #txtFreq {
+    width: 5%;
+}
+#txtFix {
+    width: 3%;
+}
+#txtRes {
+    width: 71%;
 }
