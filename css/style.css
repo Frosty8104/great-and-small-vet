@@ -1,15 +1,33 @@
 body {
     background: #ebebeb;
     color: #000000;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     max-width: 1200px;
-
+}
+header {
+    padding-left: 10%;
+    padding-top: 5%;
+    width: 100%;
+}
+img {
+    float: left;
+    height: auto;
+    padding-right: 2%;
+    width: 10%;
 }
 h1 {
+    float: left;
+    font-family: 'Secular One', sans-serif;
     font-size: 3em;
     text-align: center;
     text-shadow: 4px 4px #808080;
     text-transform: uppercase;
+}
+header h2 {
+    clear: both;
+    font-size: 1.5em;
+    text-align: center;
 }
 nav {
     text-align: center;
@@ -19,8 +37,23 @@ nav ul li {
 }
 nav ul li a {
     font-size: 1.25em;
+    font-weight: bold;
     padding-right: 30px;
     text-decoration: none;
+}
+
+/* HOME BASE */
+/* ABOUT US */
+/* SERVICES */
+main {
+    margin-bottom: 1%;
+    margin-left: 15%;
+}
+#exam, #surgery, #emerg, #exotics, #diagnostic, #meds, #oncology, #neuro, #derma, #cardio, #referral, #board, #behave {
+    float: left;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    width: 30%;
 }
 /* FORMS */
 .board, .consent, .history, .estimate, .discharge, .release, .rabies {
@@ -332,3 +365,5 @@ strong {
 #txtRes {
     width: 71%;
 }
+/* ONLINE PHARMACY */
+/* BLOG */
