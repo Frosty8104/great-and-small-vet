@@ -11,6 +11,17 @@ h1 {
     text-shadow: 4px 4px #808080;
     text-transform: uppercase;
 }
+h2 {
+    font-size: 1.5em;
+    padding-left: 2%;
+}
+h3 {
+    font-size: 1.75em;
+    text-align: center;
+}
+p {
+    padding-left: 2%;
+}
 nav {
     text-align: center;
 }
@@ -22,15 +33,69 @@ nav ul li a {
     padding-right: 30px;
     text-decoration: none;
 }
+/* HOME */
+.topic {
+    float: left;
+    padding-right: 1.5%;
+    width: 55%;
+}
+.hours {
+    float: right;
+    width: 40%;
+}
+.tour {
+    float: right;
+    clear: right;
+    width: 40%;
+}
+.pet {
+    border: 1px dashed #000000;
+    border-radius: 5px;
+    float: right;
+    clear: right;
+    width: 40%;
+}
+.client {
+    float: left;
+    width: 55%;
+}
+/* ABOUT */
+/* SERVICES */
+.routine {
+    float: left;
+    padding-left: 2%;
+    padding-right: 5%;
+}
+.emergency {
+    float: left;
+}
+.services {
+    clear: both;
+}
+.appt {
+    padding-left: 2%;
+}
+.appt label {
+    margin-left: 0.5%;
+}
+.appt input {
+    margin-bottom: 2%;
+    margin-left: 0.5%;
+}
+.plans {
+    padding-left: 2%;
+}
+.plans th, .plans td {
+    text-align: center;
+}
 /* FORMS */
-.board, .consent, .history, .estimate, .discharge, .release, .rabies {
+.board, .consent, .history, .estimate, .discharge, .release, .cert, .info, .medical, .soap, .exam {
     border: 1px solid #000000;
     margin-bottom: 5%;
-    margin-left: 5%;
     margin-top: 1.5%;
 }
 .board h2, .record h2, .consent h2, .history h2, .cert h2, .discharge h2, .estimate h2, .release h2 {
-    padding-left: 5%;
+    padding-left: 2%;
     text-align: center;
 }
 .clinic h2 {
@@ -45,11 +110,6 @@ nav ul li a {
 .release label, .release input {
     margin-bottom: 2.5%;
     margin-right: 1.5%;
-}
-.info, .medical, .soap, .exam {
-    margin-left: 2%;
-    margin-top: 1%;
-    margin-bottom: 5%;
 }
 .exam label span {
     font-weight: bold;
@@ -94,6 +154,9 @@ nav ul li a {
 .test, .res {
     float: left;
     width: 45%;
+}
+.res {
+    padding-left: 2%;
 }
 .vac {
     border-bottom: 1px solid #000000;
@@ -332,3 +395,5 @@ strong {
 #txtRes {
     width: 71%;
 }
+/* PHARMACY */
+/* BLOG */
